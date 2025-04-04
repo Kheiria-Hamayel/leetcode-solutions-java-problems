@@ -47,7 +47,7 @@ class Solution {
 
             for(int j = 0 ; j < sIndex1.size() ; j++)
             {
-                if(sIndex1.get(j) != tIndex1.get(j)) return false;
+                if(!sIndex1.get(j).equals(tIndex1.get(j))) return false;
             }
 
         }
