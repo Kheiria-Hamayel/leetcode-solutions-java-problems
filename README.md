@@ -7,6 +7,7 @@ A repo for leetcode problem solutions in java
 - Ransom Note (✅) #HashMap
 - Isomorphic Strings (✅) #HashMap
 - Word Pattern (✅) #HashMap
+- Valid Anagram (✅) #HashMap
 
 ## Medium Problems
 
