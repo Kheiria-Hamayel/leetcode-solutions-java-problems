@@ -18,6 +18,6 @@ class Solution {
             Integer valt = tMap.get(c);
             if(!valS.equals(valt)) return false;
         }
-return true;
+       return true;
     }
 }
