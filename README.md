@@ -5,7 +5,8 @@ A repo for leetcode problem solutions in java
 
 ## Easy Problems
 - Ransom Note (✅) #HashMap
-- Isomorphic Strings (✅) #HashMap 
+- Isomorphic Strings (✅) #HashMap
+- Word Pattern (✅) #HashMap
 
 ## Medium Problems
 
