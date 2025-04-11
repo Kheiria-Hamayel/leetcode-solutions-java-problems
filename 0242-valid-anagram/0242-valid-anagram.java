@@ -1,3 +1,10 @@
+// Aspect	Array Version	HashMap Version
+// Speed	✅ Faster (O(1) ops)	❌ Slightly slower (hashing)
+// Memory	✅ Low, fixed size	❌ Higher due to structure
+// Simplicity	✅ Straightforward	❌ More complex
+// Scalability	✅ Great for fixed charsets	✅ Better for dynamic/Unicode
+
+//solution 1
 class Solution {
     public boolean isAnagram(String s, String t) {
         int [] arr = new int[26];
@@ -23,7 +30,7 @@ class Solution {
 }
 
 
-
+//solution 2
 // class Solution {
 //     public boolean isAnagram(String s, String t) {
 //         if(s.length() != t.length()  ) return false;
