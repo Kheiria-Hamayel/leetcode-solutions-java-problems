@@ -10,6 +10,7 @@ A repo for leetcode problem solutions in java
 - Valid Anagram (✅) #HashMap
 
 ## Medium Problems
+- Group Anagram (✅) #HashMap
 
 ## Hard Problems
 
