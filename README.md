@@ -8,6 +8,7 @@ A repo for leetcode problem solutions in java
 - Isomorphic Strings (✅) #HashMap
 - Word Pattern (✅) #HashMap
 - Valid Anagram (✅) #HashMap
+- Two Sum (✅) #HashMap
 
 ## Medium Problems
 - Group Anagram (✅) #HashMap
