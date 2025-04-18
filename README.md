@@ -9,6 +9,7 @@ A repo for leetcode problem solutions in java
 - Word Pattern (✅) #HashMap
 - Valid Anagram (✅) #HashMap
 - Two Sum (✅) #HashMap
+- Happy Number (✅) #HashMap
 
 ## Medium Problems
 - Group Anagram (✅) #HashMap
