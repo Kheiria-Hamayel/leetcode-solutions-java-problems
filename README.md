@@ -10,6 +10,7 @@ A repo for leetcode problem solutions in java
 - Valid Anagram (✅) #HashMap
 - Two Sum (✅) #HashMap
 - Happy Number (✅) #HashMap
+- Contains Duplicate II (✅) #HashMap
 
 ## Medium Problems
 - Group Anagram (✅) #HashMap
