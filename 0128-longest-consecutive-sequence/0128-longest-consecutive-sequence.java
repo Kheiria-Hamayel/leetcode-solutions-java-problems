@@ -7,11 +7,11 @@ class Solution {
         numSet.add(x);
        }
 
-       for(int x : nums)
+   for (int x : numSet) 
        {
         if(!numSet.contains(x - 1)) // seq begin
             {
-                int len = 1;
+                int len = 0;
                 while(numSet.contains(x+len))
                 {
                     len++;
