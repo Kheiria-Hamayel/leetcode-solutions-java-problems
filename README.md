@@ -14,6 +14,7 @@ A repo for leetcode problem solutions in java
 
 ## Medium Problems
 - Group Anagram (✅) #HashMap
+- Longest Consecutive Sequence (✅) #HashMap
 
 ## Hard Problems
 
