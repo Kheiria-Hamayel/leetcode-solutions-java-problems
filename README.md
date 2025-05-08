@@ -16,6 +16,7 @@ A repo for leetcode problem solutions in java
 - Group Anagram (✅) #HashMap
 - Longest Consecutive Sequence (✅) #HashMap
 - Valid Sudoku (✅) #Matrix
+- Spiral Matrix (✅) #Matrix
 
 ## Hard Problems
 
