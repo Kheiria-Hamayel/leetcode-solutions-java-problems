@@ -11,7 +11,7 @@ class Solution {
         for (char c : s.toCharArray()) {
             if (!stack.isEmpty()) {
                 char top = stack.peek();
-                if (c == map.get(top).charValue()) {
+                if (map.containsKey(top) && c == map.get(top).charValue()) {
                     stack.pop();
                 } 
                 else {
