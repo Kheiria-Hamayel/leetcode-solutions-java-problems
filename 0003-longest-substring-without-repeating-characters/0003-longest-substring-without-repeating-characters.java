@@ -3,23 +3,17 @@ class Solution {
         Set<Character> set = new HashSet<>();
         int len = 0;
         int max = 0;
+        int left = 0 ;
         char [] arr = s.toCharArray();
 
         if(s.length() == 1) return 1;
         for(char c : arr)
         {
-            if(!set.add(c))
-            { 
-                max = Math.max(max, len);
-                len = 0;
-                set.clear();
-
+            while(!set.add(c))
+            {
+                set.remove(arr[left++]);
             }
-          
-            len++;
-            set.add(c);
-                max = Math.max(max, len);
-            
+            max = Math.max(max, set.size()) ;
         }
 
 
@@ -39,19 +33,5 @@ class Solution {
 
 
 return max;
-
-        // Set<Character> set = new HashSet<>();
-        // int max = 0;
-        // int left = 0;
-        // for(int i = 0 ; i< s.length(); i++)
-        // {
-        //     while(!set.add(s.charAt(i)))
-        //     {
-        //         set.remove(s.charAt(left++));// removes until be able to add letter in 
-        //         // hashset
-        //     }
-        //     max= Math.max(max, set.size());
-        // }
-        // return max;
     }
 }
