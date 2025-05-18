@@ -8,10 +8,10 @@ class Solution {
         Stack<Character> stack = new Stack<>();
         // Character [] ca = s.toCharArray();
 
-        for (Character c : s.toCharArray()) {
+        for (char c : s.toCharArray()) {
             if (!stack.isEmpty()) {
                 char top = stack.peek();
-                if (c.equals(map.get(top))) {
+                if (c == map.get(top).charValue()) {
                     stack.pop();
                 } 
                 else {
